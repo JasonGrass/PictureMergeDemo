@@ -35,6 +35,7 @@ namespace PicProcessTest
             picBoxS.Image = GetTrafficImage(TrafficArrowType.E_Straight);
             picBoxR.Image = GetTrafficImage(TrafficArrowType.E_Right);
 
+            //用于统计融合图片需要的时间，实际结果表明，这种方式并不适合规模大或者数据量大的图片融合操作
             Stopwatch sw = new Stopwatch();
             sw.Start();
 
