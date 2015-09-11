@@ -1,4 +1,5 @@
-# PictureMergeDemo
+### PictureMergeDemo
 C# WinFrom 项目
 合并具有相同背景的图片
 主要用于合并指示标记等图片
+**合并操作比较耗时，不适用与大量、以及大尺寸图片的处理**
